@@ -1,0 +1,192 @@
+2025-12-29 13:58:01,764 [ERROR] 运行任务失败: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+Traceback (most recent call last):
+  File "c:\Users\yangxinpeng\Desktop\for cursor\ui\components\folder_task_page.py", line 63, in run_task
+    outputs = handler(input_dir, output_dir)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\yangxinpeng\Desktop\for cursor\modules\dangdang_sales\logic.py", line 143, in process_folder
+    processing_file = _copy_to_output(src, out_dir)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\yangxinpeng\Desktop\for cursor\modules\dangdang_sales\logic.py", line 71, in _copy_to_output
+    shutil.copy2(input_file, out_path)
+  File "C:\Program Files\Python312\Lib\shutil.py", line 460, in copy2
+    _winapi.CopyFile2(src_, dst_, flags)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+2025-12-29 13:58:05,260 [ERROR] 运行任务失败: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+Traceback (most recent call last):
+  File "c:\Users\yangxinpeng\Desktop\for cursor\ui\components\folder_task_page.py", line 63, in run_task
+    outputs = handler(input_dir, output_dir)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\yangxinpeng\Desktop\for cursor\modules\dangdang_sales\logic.py", line 143, in process_folder
+    processing_file = _copy_to_output(src, out_dir)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\yangxinpeng\Desktop\for cursor\modules\dangdang_sales\logic.py", line 71, in _copy_to_output
+    shutil.copy2(input_file, out_path)
+  File "C:\Program Files\Python312\Lib\shutil.py", line 460, in copy2
+    _winapi.CopyFile2(src_, dst_, flags)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+2025-12-29 13:58:25,675 [ERROR] 运行任务失败: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+Traceback (most recent call last):
+  File "c:\Users\yangxinpeng\Desktop\for cursor\ui\components\folder_task_page.py", line 63, in run_task
+    outputs = handler(input_dir, output_dir)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\yangxinpeng\Desktop\for cursor\modules\dangdang_sales\logic.py", line 143, in process_folder
+    processing_file = _copy_to_output(src, out_dir)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\yangxinpeng\Desktop\for cursor\modules\dangdang_sales\logic.py", line 71, in _copy_to_output
+    shutil.copy2(input_file, out_path)
+  File "C:\Program Files\Python312\Lib\shutil.py", line 460, in copy2
+    _winapi.CopyFile2(src_, dst_, flags)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+2025-12-29 14:32:58,880 [ERROR] 运行任务失败: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+Traceback (most recent call last):
+  File "C:\Users\yangxinpeng\Desktop\for cursor\ui\components\folder_task_page.py", line 78, in run_task
+    outputs = handler(input_dir, output_dir)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yangxinpeng\Desktop\for cursor\modules\inventory_preprocess\baihe_snapshot.py", line 52, in process_folder
+    shutil.copy2(inv_src, inv_path)
+  File "C:\Program Files\Python312\Lib\shutil.py", line 460, in copy2
+    _winapi.CopyFile2(src_, dst_, flags)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+2025-12-29 14:33:33,761 [ERROR] 运行任务失败: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+Traceback (most recent call last):
+  File "C:\Users\yangxinpeng\Desktop\for cursor\ui\components\folder_task_page.py", line 78, in run_task
+    outputs = handler(input_dir, output_dir)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yangxinpeng\Desktop\for cursor\modules\inventory_preprocess\baihe_snapshot.py", line 52, in process_folder
+    shutil.copy2(inv_src, inv_path)
+  File "C:\Program Files\Python312\Lib\shutil.py", line 460, in copy2
+    _winapi.CopyFile2(src_, dst_, flags)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+2025-12-29 14:33:50,409 [ERROR] 运行任务失败: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+Traceback (most recent call last):
+  File "C:\Users\yangxinpeng\Desktop\for cursor\ui\components\folder_task_page.py", line 78, in run_task
+    outputs = handler(input_dir, output_dir)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yangxinpeng\Desktop\for cursor\modules\inventory_preprocess\baihe_snapshot.py", line 52, in process_folder
+    shutil.copy2(inv_src, inv_path)
+  File "C:\Program Files\Python312\Lib\shutil.py", line 460, in copy2
+    _winapi.CopyFile2(src_, dst_, flags)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+2025-12-29 14:37:12,379 [ERROR] 运行任务失败: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+Traceback (most recent call last):
+  File "c:\Users\yangxinpeng\Desktop\for cursor\ui\components\folder_task_page.py", line 78, in run_task
+    outputs = handler(input_dir, output_dir)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\yangxinpeng\Desktop\for cursor\modules\inventory_preprocess\baihe_snapshot.py", line 52, in process_folder
+    shutil.copy2(inv_src, inv_path)
+  File "C:\Program Files\Python312\Lib\shutil.py", line 460, in copy2
+    _winapi.CopyFile2(src_, dst_, flags)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+2025-12-29 14:37:58,619 [ERROR] 运行任务失败: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+Traceback (most recent call last):
+  File "c:\Users\yangxinpeng\Desktop\for cursor\ui\components\folder_task_page.py", line 78, in run_task
+    outputs = handler(input_dir, output_dir)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\yangxinpeng\Desktop\for cursor\modules\inventory_preprocess\warehouse_realcount.py", line 47, in process_folder
+    shutil.copy2(match_src, out_dir / match_src.name)
+  File "C:\Program Files\Python312\Lib\shutil.py", line 460, in copy2
+    _winapi.CopyFile2(src_, dst_, flags)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+2025-12-30 11:47:39,262 [ERROR] 运行任务失败: 'gbk' codec can't encode character '\u2713' in position 0: illegal multibyte sequence
+Traceback (most recent call last):
+  File "C:\Users\yangxinpeng\Desktop\for cursor\ui\components\folder_task_page.py", line 78, in run_task
+    outputs = handler(input_dir, output_dir)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yangxinpeng\Desktop\for cursor\modules\pushed_order_not_inbound\logic.py", line 411, in process_folder
+    ok = processor.处理文件()
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yangxinpeng\Desktop\for cursor\modules\pushed_order_not_inbound\logic.py", line 373, in 处理文件
+    self.读取表头配置()
+  File "C:\Users\yangxinpeng\Desktop\for cursor\modules\pushed_order_not_inbound\logic.py", line 50, in 读取表头配置
+    print(f"✓ 使用内化的表头配置，共{len(self.预定义表头)}个字段")
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2713' in position 0: illegal multibyte sequence
+2025-12-30 11:48:00,072 [ERROR] 运行任务失败: 'gbk' codec can't encode character '\u2713' in position 0: illegal multibyte sequence
+Traceback (most recent call last):
+  File "C:\Users\yangxinpeng\Desktop\for cursor\ui\components\folder_task_page.py", line 78, in run_task
+    outputs = handler(input_dir, output_dir)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yangxinpeng\Desktop\for cursor\modules\pushed_order_not_inbound\logic.py", line 411, in process_folder
+    ok = processor.处理文件()
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yangxinpeng\Desktop\for cursor\modules\pushed_order_not_inbound\logic.py", line 373, in 处理文件
+    self.读取表头配置()
+  File "C:\Users\yangxinpeng\Desktop\for cursor\modules\pushed_order_not_inbound\logic.py", line 50, in 读取表头配置
+    print(f"✓ 使用内化的表头配置，共{len(self.预定义表头)}个字段")
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2713' in position 0: illegal multibyte sequence
+2025-12-30 15:30:23,447 [ERROR] 运行任务失败: 文件正在被占用，请先关闭Excel/WPS后重试：[WinError 32] 另一个程序正在使用此文件，进程无法访问。
+Traceback (most recent call last):
+  File "C:\Users\yangxinpeng\Desktop\for cursor\modules\return_inbound_timeliness\step1_preprocess.py", line 47, in process_step1
+    shutil.copy2(csv_src, csv_dst)
+  File "C:\Program Files\Python312\Lib\shutil.py", line 460, in copy2
+    _winapi.CopyFile2(src_, dst_, flags)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\yangxinpeng\Desktop\for cursor\ui\components\folder_task_page.py", line 78, in run_task
+    outputs = handler(input_dir, output_dir)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yangxinpeng\Desktop\for cursor\modules\return_inbound_timeliness\step1_preprocess.py", line 51, in process_step1
+    raise PermissionError(f"文件正在被占用，请先关闭Excel/WPS后重试：{exc}") from exc
+PermissionError: 文件正在被占用，请先关闭Excel/WPS后重试：[WinError 32] 另一个程序正在使用此文件，进程无法访问。
+2025-12-30 15:30:38,294 [ERROR] 运行任务失败: 文件正在被占用，请先关闭Excel/WPS后重试：[WinError 32] 另一个程序正在使用此文件，进程无法访问。
+Traceback (most recent call last):
+  File "C:\Users\yangxinpeng\Desktop\for cursor\modules\return_inbound_timeliness\step1_preprocess.py", line 47, in process_step1
+    shutil.copy2(csv_src, csv_dst)
+  File "C:\Program Files\Python312\Lib\shutil.py", line 460, in copy2
+    _winapi.CopyFile2(src_, dst_, flags)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\yangxinpeng\Desktop\for cursor\ui\components\folder_task_page.py", line 78, in run_task
+    outputs = handler(input_dir, output_dir)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yangxinpeng\Desktop\for cursor\modules\return_inbound_timeliness\step1_preprocess.py", line 51, in process_step1
+    raise PermissionError(f"文件正在被占用，请先关闭Excel/WPS后重试：{exc}") from exc
+PermissionError: 文件正在被占用，请先关闭Excel/WPS后重试：[WinError 32] 另一个程序正在使用此文件，进程无法访问。
+2025-12-30 15:31:24,990 [ERROR] 运行任务失败: 文件正在被占用，请先关闭Excel/WPS后重试：[WinError 32] 另一个程序正在使用此文件，进程无法访问。
+Traceback (most recent call last):
+  File "C:\Users\yangxinpeng\Desktop\for cursor\modules\return_inbound_timeliness\step1_preprocess.py", line 47, in process_step1
+    shutil.copy2(csv_src, csv_dst)
+  File "C:\Program Files\Python312\Lib\shutil.py", line 460, in copy2
+    _winapi.CopyFile2(src_, dst_, flags)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\yangxinpeng\Desktop\for cursor\ui\components\folder_task_page.py", line 78, in run_task
+    outputs = handler(input_dir, output_dir)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yangxinpeng\Desktop\for cursor\modules\return_inbound_timeliness\step1_preprocess.py", line 51, in process_step1
+    raise PermissionError(f"文件正在被占用，请先关闭Excel/WPS后重试：{exc}") from exc
+PermissionError: 文件正在被占用，请先关闭Excel/WPS后重试：[WinError 32] 另一个程序正在使用此文件，进程无法访问。
+2025-12-30 18:34:17,349 [INFO] Shipping timeliness processing: input=C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货商品详情11月.csv output=C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货时效表处理\发货商品详情（11月）.xlsx
+2025-12-30 18:34:17,349 [INFO] Reading CSV with encoding=utf-8: C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货商品详情11月.csv
+2025-12-30 18:34:17,358 [INFO] Reading CSV with encoding=gbk: C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货商品详情11月.csv
+2025-12-30 18:50:18,829 [INFO] Shipping timeliness processing: input=C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货商品详情11月.csv output=C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货时效表处理\发货商品详情（11月）.xlsx
+2025-12-30 18:50:18,846 [INFO] Reading CSV: C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货商品详情11月.csv (encoding=gbk usecols=subset)
+2025-12-30 18:55:26,765 [INFO] Shipping timeliness processing: input=C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货商品详情11月.csv output=C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货时效表处理\发货商品详情（11月）.xlsx
+2025-12-30 18:55:26,796 [INFO] Reading CSV: C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货商品详情11月.csv (encoding=gbk usecols=subset)
+2025-12-30 19:05:14,300 [INFO] Shipping timeliness processing: input=C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货商品详情11月.csv output=C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货时效表处理\发货商品详情（11月）.xlsx
+2025-12-30 21:03:55,950 [INFO] Shipping timeliness processing: input=C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货商品详情11月.csv output=C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货时效表处理\发货商品详情（11月）.xlsx
+2025-12-30 21:18:02,390 [INFO] Shipping timeliness processing: input=C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货商品详情11月.csv output=C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货时效表处理\发货商品详情（11月）.xlsx
+2025-12-30 21:55:41,042 [INFO] Shipping timeliness processing: input=C:\Users\yangxinpeng\Desktop\发货时效，月初第二周\程序驱动\步骤1\发货商品详情11月.csv output=C:\Users\yangxinpeng\Desktop\for cursor\发货时效表处理\发货商品详情（11月）.xlsx
+2025-12-30 22:08:07,743 [ERROR] 发生未处理异常
+Traceback (most recent call last):
+  File "c:\Users\yangxinpeng\Desktop\for cursor\main.py", line 85, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "c:\Users\yangxinpeng\Desktop\for cursor\main.py", line 77, in main
+    return app.exec()
+           ^^^^^^^^^^
+KeyboardInterrupt
+2025-12-30 22:18:13,853 [INFO] Shipping timeliness processing: input=C:\Users\yangxinpeng\Desktop\for cursor\发货时效\发货商品详情10月.csv output=C:\Users\yangxinpeng\Desktop\for cursor\测试结果\发货时效表处理\发货商品详情（10月）.xlsx
+2025-12-31 09:58:05,061 [ERROR] 运行任务失败: Worksheet named '供应链订单明细表' not found
+NoneType: None
+2025-12-31 09:59:07,987 [ERROR] 运行任务失败: Worksheet named '供应链订单明细表' not found
+NoneType: None
+2025-12-31 20:44:23,026 [INFO] Shipping timeliness processing: input=C:\Users\yangxinpeng\Desktop\a测试\发货时效\发货商品详情10月.csv output=C:\Users\yangxinpeng\Desktop\a测试\测试结果2\发货时效表处理\发货商品详情（10月）.xlsx

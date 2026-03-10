@@ -1,0 +1,117 @@
+{
+  "device": "88f81158af9c19ca",
+  "events": [
+    {
+      "ts": 1767178208,
+      "key": "yituidanweiruku",
+      "label": "已推单未入库表处理",
+      "runtime_sec": 24.76704340055585,
+      "baseline_sec": 1800.0,
+      "saved_sec": 1775.2329565994442
+    },
+    {
+      "ts": 1767183223,
+      "key": "stock_weipeihuo",
+      "label": "未配货",
+      "runtime_sec": 65.17681180033833,
+      "baseline_sec": 3600.0,
+      "saved_sec": 3534.8231881996617
+    },
+    {
+      "ts": 1767185009,
+      "key": "dangdang",
+      "label": "当当切出拉销量",
+      "runtime_sec": 51.55188939999789,
+      "baseline_sec": 600.0,
+      "saved_sec": 548.4481106000021
+    },
+    {
+      "ts": 1767185047,
+      "key": "yituidanweiruku",
+      "label": "已推单未入库表处理",
+      "runtime_sec": 23.33684299979359,
+      "baseline_sec": 1800.0,
+      "saved_sec": 1776.6631570002064
+    },
+    {
+      "ts": 1767185116,
+      "key": "fahuoshixiao",
+      "label": "发货时效表处理",
+      "runtime_sec": 53.12357180006802,
+      "baseline_sec": 1800.0,
+      "saved_sec": 1746.876428199932
+    },
+    {
+      "ts": 1767185169,
+      "key": "stock_weifahuo",
+      "label": "未发货",
+      "runtime_sec": 2.0441183000802994,
+      "baseline_sec": 1800.0,
+      "saved_sec": 1797.9558816999197
+    },
+    {
+      "ts": 1767185270,
+      "key": "stock_kucunbaobiao",
+      "label": "库存报表",
+      "runtime_sec": 68.73988649994135,
+      "baseline_sec": 1800.0,
+      "saved_sec": 1731.2601135000587
+    },
+    {
+      "ts": 1767185307,
+      "key": "tuihuo_chubu",
+      "label": "表的初步处理",
+      "runtime_sec": 27.520766399800777,
+      "baseline_sec": 1800.0,
+      "saved_sec": 1772.4792336001992
+    },
+    {
+      "ts": 1767185333,
+      "key": "tuihuo_jisuan",
+      "label": "表的时效计算",
+      "runtime_sec": 0.39668730087578297,
+      "baseline_sec": 600.0,
+      "saved_sec": 599.6033126991242
+    },
+    {
+      "ts": 1767185349,
+      "key": "pandianfenxi",
+      "label": "盘点的分析处理",
+      "runtime_sec": 7.484350400045514,
+      "baseline_sec": 3600.0,
+      "saved_sec": 3592.5156495999545
+    },
+    {
+      "ts": 1767185398,
+      "key": "pandian_guanyi",
+      "label": "管易基础表处理工具1",
+      "runtime_sec": 33.30595889966935,
+      "baseline_sec": 900.0,
+      "saved_sec": 866.6940411003307
+    },
+    {
+      "ts": 1767185417,
+      "key": "pandian_baihe",
+      "label": "百合基础表处理工具2",
+      "runtime_sec": 6.238113000057638,
+      "baseline_sec": 900.0,
+      "saved_sec": 893.7618869999424
+    },
+    {
+      "ts": 1767185490,
+      "key": "pandian_cangku",
+      "label": "仓库实盘表处理工具3",
+      "runtime_sec": 63.341614100150764,
+      "baseline_sec": 1800.0,
+      "saved_sec": 1736.6583858998492
+    },
+    {
+      "ts": 1767186365,
+      "key": "stock_weifahuo",
+      "label": "未发货",
+      "runtime_sec": 1.651863400824368,
+      "baseline_sec": 720.0,
+      "saved_sec": 718.3481365991756
+    }
+  ]
+}

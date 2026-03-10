@@ -1,0 +1,6 @@
+pyinstaller>=6.6.0
+# PyArmor 9.x removed "pack" subcommand; our one-shot pipeline uses "pyarmor pack"
+pyarmor==8.5.12
+wheel
+
+
